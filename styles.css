@@ -75,6 +75,10 @@ section {
   margin-bottom: 5rem;
   text-align: center;
 }
+
+.about{
+  text-align: left;
+}
 /* reusable */
 
 /* header */
@@ -105,8 +109,9 @@ section {
   font-weight: 700;
   margin-right: 3 rem;
   color: var(--black);
- display:inline-flex ;
- z-index: 1;
+  display:inline-flex ;
+  z-index: 1;
+  /* text-decoration: none; */
 }
 
 .header .menu {
@@ -139,7 +144,7 @@ section {
 
 .home {
   height: 100vh;
-  background: url('images/picture_2.jpg') no-repeat;
+  background: url('images/background.png') no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -489,16 +494,12 @@ section {
   }
 }
 
-
 .navbar a{
   margin-right: 25px;
 }
-.progress {
-  
-  --bs-progress-bar-bg: #212529 !important;
-  
+.progress { 
+  --bs-progress-bar-bg: #212529 !important; 
 }
-
 
 .header.active{
   background-color: white;
